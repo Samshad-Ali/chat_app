@@ -18,7 +18,7 @@
 }
 
 body{
-  background:url("../public/bg.jpg");
+  background:url("/bg.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,10 +28,10 @@ body{
 }
 
 .container{
-  width: 90vw;
+  width: 80vw;
   height: 90vh;
-  background-color: rgba(17, 25, 40, 0.75);
-  backdrop-filter: blur(20px) saturate(180deg);
+  background-color: rgba(17, 25, 40, 0.8);
+  backdrop-filter: blur(90px) saturate(180deg);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.155);
   display: flex;
